@@ -1,0 +1,38 @@
+div {
+  text-align: center;
+  display: block;
+}
+
+li {
+  display: inline;
+  float: left;
+  text-align: left;
+  padding-right: 15px;
+  font-size: 2em;
+}
+
+form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  border: 1px solid black;
+  height: 43px;
+  width: 100px;
+  margin: auto;
+  text-align: center;
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+input {
+  flex: 0 0 200px;
+  margin-left: 10px;
+}
